@@ -2,19 +2,17 @@ PATH
   remote: .
   specs:
     bitcoin_core_rpc (0.1.0)
-      httparty (~> 0.18.1)
-      json (~> 2.5.1)
+      httparty
+      json
 
 GEM
   remote: https://rubygems.org/
   specs:
-    httparty (0.18.1)
-      mime-types (~> 3.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    json (2.5.1)
-    mime-types (3.4.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2023.0218.1)
+    json (2.6.3)
+    mini_mime (1.1.2)
     multi_xml (0.6.0)
     rake (12.3.3)
 
